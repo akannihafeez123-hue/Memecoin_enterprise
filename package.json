@@ -1,0 +1,21 @@
+{
+  "name": "memecoin-empire-gem-hunter",
+  "version": "8.2.0",
+  "description": "Memecoin Empire — GEM HUNTER v8.2 with Pre-Momentum Intelligence",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.98.0",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "pg": "^8.13.0",
+    "telegraf": "^4.16.3"
+  }
+}
